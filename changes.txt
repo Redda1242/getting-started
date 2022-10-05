@@ -1,1 +1,3 @@
 Creating a textfile on vm and pushing it to git
+I am checking if push will work in VM
+hope it works :)
