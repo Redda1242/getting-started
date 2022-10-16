@@ -1,25 +1,31 @@
 body {
     background-color: #EECEAC;
-    margin-top: 50px;
+    margin-top: 200px;
     font-family: 'Lato';
 }
 
 .item {
-    background-color: white;
+    background-color: rgba(168, 218, 220, 1.00);
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
     border-radius: 5px;
     box-shadow: 0 0 1em #ccc;
     transition: all .2s ease-in-out;
+    touch-action: none;
+    user-select: none;
 }
 
 .item:hover {
-    box-shadow: 0 0 1em #aaa;
+    box-shadow: 0 0 1em rgb(192, 169, 162) ;
 }
 
 .item.completed {
     text-decoration: line-through;
+}
+
+.item:active {
+    background-color: rgb(224, 164, 164);
 }
 
 .toggles {
@@ -34,6 +40,19 @@ body {
     padding-left: 0;
 }
 
+
 button:focus {
     border: 1px solid #333;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    color:rgb(77, 11, 11);
+    text-decoration-line: overline underline;
+    text-decoration-color: rgb(114, 86, 86);
+    text-decoration-style: dotted;
+    text-shadow: 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
