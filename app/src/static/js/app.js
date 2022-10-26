@@ -135,7 +135,7 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
             onItemRemoval(item),
             
         );
-        alert("removing item");
+        alert("You just removed an ITEM ");
     };
 
     return (
